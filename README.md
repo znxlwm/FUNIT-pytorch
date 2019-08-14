@@ -39,12 +39,12 @@
 
 ### Train
 ```
-> python main.py --dataset flower
+> python main.py --name FUNIT --dataset YOUR_DATASET_NAME --phase train --K 1
 ```
 
 ### Test
 ```
-> python main.py --dataset flower --phase test --K 1
+> python main.py --name FUNIT --dataset YOUR_DATASET_NAME --phase test --K 1
 ```
 
 ## Architecture
