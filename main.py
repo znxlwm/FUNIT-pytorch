@@ -38,7 +38,7 @@ def parse_args():
     parser.add_argument('--img_ch', type=int, default=3, help='The size of image channel')
     parser.add_argument('--code_dim', type=int, default=64, help='The dimension of class code')
     parser.add_argument('--n_class', type=int, default=85, help='The number of source classes')
-    parser.add_argument('--K', type=int, default=5, help='The number of target class images')
+    parser.add_argument('--K', type=int, default=1, help='The number of target class images')
 
     parser.add_argument('--result_dir', type=str, default='results', help='Directory name to save the results')
     parser.add_argument('--device', type=str, default='cuda', choices=['cpu', 'cuda'], help='Set gpu mode; [cpu, cuda]')
