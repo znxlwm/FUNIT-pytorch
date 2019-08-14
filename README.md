@@ -51,7 +51,7 @@
 ![architecture](./assets/architecture.png)
 
 ## Our result
-![our_result](./assets/our_result.png)
+![our_result](./assets/our_result.jpg)
 
 ## Paper result
 ![paper_result](./assets/funit_example.jpg)
